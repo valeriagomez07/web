@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="destinopersona.jsp">
+<p>
+<label for="nombre"> Nombre:</label>
+<input type="text" name="nombre" id="nombre"/>
+</p>
+<p>
+<label for="apellidos"> Apellidos:</label>
+<input type="text" name="apellidos" id="apellidos"/>
+</p>
+<p>
+<label for="fecha"> Fecha Nacimiento:</label>
+<input type="date" name="fecha" id="fecha"/>
+</p>
+<p>
+<select name="lenguaje">
+<option> Java </option>
+<option> php </option>
+<option> C# </option>
+</select>
+</p>
+Selecciona los dispositivos
+<p>
+<select name="dispositivos" multiple="multiple">
+<option> Tablet </option>
+<option> Portatil </option>
+<option> PC </option>
+</select>
+</p>
+
+
+<p> 
+<input type="radio" name="nivel" value="1"/> Basico
+<input type="radio" name="nivel" value="2"/> Intermedio
+<input type="radio" name="nivel" value="3"/> Experto
+</p>
+<p> 
+<input type="checkbox" name="nuevo" value="true"/> Eres nuevo?
+</p>
+<p>
+<input type="submit" value="enviar"/>
+</p>
+</form>
+</body>
+</html>
