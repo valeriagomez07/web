@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	color: whrite;
+	
+table {
+	background-color: rgb(255, 0, 128);
+	border: 0.8em #ffffff;
+	color: white;
+	font-family:serif;
+}
+h1 {
+	font-family: sans-serif;
+	color:#ff3383
+}
+caption {
+	color: #ff3383;
+	font-size:1.3em;
+	
+	
+}
+table, tr,td {
+	border: 1px solid #ffffff;
+}
+th {
+	border: 1px solid #ffffff;
+	text-align: center ;
+}
+

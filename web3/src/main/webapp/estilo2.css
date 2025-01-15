@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+}
+
+tbody{
+	background-color: #ff0080;
+	color: #ffffff;
+}
+
+tbody, tr{
+text-align: center;
+
+}
+
+table {
+	background-color: #ffd7eb;
+	border: 0.8em #ffffff;
+}
+
+thead {
+	background-color: #ffffff;
+	color: #ff0080;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: #ff3383;
+}
+
+caption {
+	background-color: #ff0080;
+	color: #ffffff;
+	padding: 0.8m;
+}
